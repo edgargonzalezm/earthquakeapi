@@ -11,4 +11,8 @@ public interface EarthquakeService {
 	EarthquakeResponse getDetailByMagnitude(Float minmagnitude, Float maxmagnitude);
 
 	EarthquakeResponse getDetailByRangeDate(Date startDate1, Date endDate1, Date startDate2, Date endDate2);
+
+	EarthquakeResponse getDetailByPais(String pais);
+
+	EarthquakeResponse getDetailByPaisRangoFecha(Date startDate1, Date endDate1, String pais1, String pais2);
 }
