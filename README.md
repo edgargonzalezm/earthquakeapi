@@ -28,3 +28,6 @@ URL GET: /sismos/paisrangofecha
 ## Servicio que obtiene los eventos por 2 rangos de fecha 
 URL GET: /sismos/rangofecha
 * ejemplo - http://localhost:8080/sismos/rangofecha?endtDate1=2019-11-2&endtDate2=2019-9-25&startDate1=2019-11-1&startDate2=2019-9-24
+
+## Url para acceder a swagger
+http://localhost:8080/swagger-ui.html
